@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    color: white;
+}
+
+/* NAVBAR (if not handled in navbar.css) */
+.logo {
+    color: #00ff88;
+}
+
+.menu a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: white;
+    transition: 0.3s;
+}
+
+.menu a:hover {
+    color: #00ff88;
+}
+
+/* HOBBIES BACKGROUND */
+.hobbies {
+    padding: 120px 80px;
+    background: linear-gradient(rgba(10, 15, 10, 0.85), rgba(10, 15, 10, 0.95)),
+    url('https://static.vecteezy.com/system/resources/thumbnails/017/798/493/small/dark-abstract-green-light-background-with-hexagon-mesh-pattern-decoration-vector.jpg') center/cover no-repeat;
+}
+
+/* CONTAINER */
+.hobbies-container {
+    max-width: 900px;
+    margin: auto;
+    background: rgba(255,255,255,0.03);
+    padding: 40px;
+    border-radius: 20px;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 0 40px rgba(0,255,136,0.15);
+}
+
+/* TITLE */
+.hobbies h2 {
+    font-size: 35px;
+    color: #00ff88;
+    margin-bottom: 30px;
+}
+
+/* CARDS */
+.hobby-card {
+    background: rgba(255,255,255,0.05);
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 15px;
+    border-left: 3px solid #00ff88;
+    transition: 0.3s;
+}
+
+.hobby-card:hover {
+    transform: translateX(10px);
+    box-shadow: 0 0 25px rgba(0,255,136,0.25);
+}
+
+.hobby-card h3 {
+    color: #00ff88;
+    margin-bottom: 10px;
+}
+
+.hobby-card p {
+    opacity: 0.85;
+    line-height: 1.6;
+}

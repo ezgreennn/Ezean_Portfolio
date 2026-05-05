@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    color: white;
+}
+
+/* BACKGROUND */
+.blog {
+    padding: 120px 80px;
+    background: linear-gradient(rgba(10, 15, 10, 0.85), rgba(10, 15, 10, 0.95)),
+    url('https://static.vecteezy.com/system/resources/thumbnails/017/798/493/small/dark-abstract-green-light-background-with-hexagon-mesh-pattern-decoration-vector.jpg') center/cover no-repeat;
+}
+
+/* CONTAINER */
+.blog-container {
+    max-width: 900px;
+    margin: auto;
+    background: rgba(255,255,255,0.03);
+    padding: 40px;
+    border-radius: 20px;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 0 40px rgba(0,255,136,0.15);
+}
+
+/* TITLE */
+.blog h2 {
+    font-size: 35px;
+    color: #00ff88;
+    margin-bottom: 30px;
+}
+
+/* CARDS */
+.blog-card {
+    background: rgba(255,255,255,0.05);
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 15px;
+    border-left: 3px solid #00ff88;
+    transition: 0.3s;
+}
+
+.blog-card:hover {
+    transform: translateX(10px);
+    box-shadow: 0 0 25px rgba(0,255,136,0.25);
+}
+
+.blog-card h3 {
+    color: #00ff88;
+    margin-bottom: 10px;
+}
+
+.blog-card p {
+    opacity: 0.85;
+    line-height: 1.6;
+}
