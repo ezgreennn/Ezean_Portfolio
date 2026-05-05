@@ -1,0 +1,54 @@
+/* PAGE */
+body {
+    background: #0a0f0a;
+    color: white;
+}
+
+/* SECTION */
+.services {
+    padding: 120px 60px;
+    text-align: center;
+}
+
+.services h2 {
+    color: #00ff88;
+    margin-bottom: 40px;
+}
+
+/* CONTAINER */
+.service-container {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+/* CARD */
+.service-card {
+    width: 260px;
+    padding: 25px;
+    border-radius: 15px;
+
+    background: rgba(255,255,255,0.05);
+    backdrop-filter: blur(10px);
+
+    box-shadow: 0 0 20px rgba(0,255,136,0.2);
+    transition: 0.3s ease;
+}
+
+/* TEXT */
+.service-card h3 {
+    color: #00ff88;
+    margin-bottom: 10px;
+}
+
+.service-card p {
+    font-size: 14px;
+    opacity: 0.85;
+}
+
+/* HOVER */
+.service-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 0 30px rgba(0,255,136,0.4);
+} 
